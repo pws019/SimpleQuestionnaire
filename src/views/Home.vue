@@ -1,7 +1,9 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div>
+    <h1>主页</h1>
+    <ul>
+      <li><router-link to="/recovered-power">复原力自评</router-link></li>
+    </ul>
   </div>
 </template>
 
