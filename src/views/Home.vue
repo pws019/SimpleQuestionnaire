@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <h1>主页</h1>
+  <div class="main">
+    <h1 class="title">主页</h1>
     <ul>
-      <li><router-link to="/recovered-power">复原力自评</router-link></li>
+      <li class="test-item"><router-link to="/recovered-power">复原力自评</router-link></li>
     </ul>
   </div>
 </template>
@@ -18,3 +18,14 @@ import HelloWorld from '@/components/HelloWorld.vue'; // @ is an alias to /src
 })
 export default class Home extends Vue {}
 </script>
+<style lang="less" scoped>
+.main {
+  padding: 10px;
+}
+.title {
+  margin-bottom: 16px;
+}
+.test-item {
+  font-size: 24px;
+}
+</style>
